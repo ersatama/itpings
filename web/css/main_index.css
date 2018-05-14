@@ -3,25 +3,44 @@
 	background: rgb(245,245,2450);
 }
 .menu-header {
-    height: 60px;
+    height: 75px;
     background: white;
     width: 100%;
     overflow: hidden;
 }
+.menu-header-top-in {
+    height: 25px;
+    width: 100%;
+    background: rgba(240,240,240);
+    box-shadow: 0 0 0 1px gainsboro;
+    position: fixed;
+    z-index: 2;
+}
+.menu-header-top-in-list {
+    margin: 5px auto 0 auto;
+    font-size: 12px;
+    overflow: hidden;
+    display: table;
+    color: grey;
+}
+.menu-header-top-in-list-btn {
+    float: left;
+    margin: 0 20px 0 0;
+}
 .menu-header-in {
-height: 60px;
+height: 50px;
     position: fixed;
     width: 100%;
-    top: 0;
+    top: 25px;
     left: 0;
     right: 0;
-    background: rgb(250,250,250);
+    background: white;
     box-shadow: 0 0 3px 0 rgba(0,0,0,.4);
 }
 .menu-header-in-left {
     display: block;
     height: 40px;
-    margin: 10px 0 0 50px;
+    margin: 5px 0 0 50px;
     position: absolute;
     overflow: hidden;
 }
@@ -43,19 +62,75 @@ height: 60px;
 .menu-header-in-left-title-in {
     color: rgb(204, 33, 40);
 }
-.menu-header-in-right {
-
+.menu-header-in-center {
+    overflow: hidden;
+    margin: 0 180px 0 0;
 }
 .menu-header-in-center-list {
-	display: table;
+    display: table;
     margin: 0 auto 0 auto;
+    overflow: hidden;
 }
 .menu-header-in-center-list-btn {
-
+    background: transparent;
+    border: none;
+    height: 50px;
+    padding: 0 15px 0 15px;
+    color: grey;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+    font-size: 12px;
+}
+.menu-header-in-center-list-btn-icon {
+    float: right;
+    width: 16px;
+    height: 10px;
+    margin: 3px 0 0 8px;
+}
+.menu-header-in-center-list-btn-icon:before,.menu-header-in-center-list-btn-icon:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    background: grey;
+    transform: rotate(-45deg);
+    margin: 0 0 0 -4px;
+}
+.menu-header-in-center-list-btn-icon:after {
+    transform: rotate(45deg);
+    margin-left: 2px;
+}
+.menu-header-in-right {
+    position: absolute;
+    right: 0;
 }
 .menu-header-in-right-search {
-
+    float: left;
 }
 .menu-header-in-right-search-in {
-
+    background: rgb(250,250,250);
+    border: 1px solid gainsboro;
+    height: 30px;
+    border-radius: 30px;
+    margin: 10px 10px 0 0;
+    outline: none;
+    padding: 0 20px 0 20px;
+    font-size: 12px;
+    width: 180px;
+}
+.menu-header-in-right-list {
+    float: right;
+    overflow: hidden;
+    margin: 11px 50px 0 0;
+}
+.menu-header-in-right-list-btn {
+    margin: 0 5px 0 0;
+    height: 28px;
+    font-size: 12px;
+    outline: none !important;
+    border-radius: 2px;
+}
+.menu-list {
+	
 }

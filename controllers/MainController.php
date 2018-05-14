@@ -35,6 +35,8 @@ class MainController extends Controller {
     }*/
 	public function actionIndex($id = 0) {
 		$this->layout = 'basic';
+        $this->view->title = 'INDEX !';
+        $this->view->registerMetaTag(['name'=>'keywords','content'=>'index page']);
 		return $this->render('index',['wow'=>'wow','id'=>$id]);
 	}
 }

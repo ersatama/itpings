@@ -1,3 +1,12 @@
+.fixed-body {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    top: 75px;
+    right: 0;
+    overflow: auto;
+}
 .display {
 	box-shadow: 0 0 0 1px gainsboro;
 	background: rgb(245,245,2450);
@@ -65,7 +74,7 @@
 }
 .menu-header-in-center {
     overflow: hidden;
-    margin: 0 180px 0 0;
+    margin: 0 200px 0 0;
 }
 .menu-header-in-center-list {
     display: table;
@@ -96,7 +105,7 @@
     position: absolute;
     width: 2px;
     height: 10px;
-    background: grey;
+    background: gainsboro;
     transform: rotate(-45deg);
     margin: 0 0 0 -4px;
 }
@@ -111,16 +120,43 @@
 .menu-header-in-right-search {
     float: left;
 }
+.menu-header-in-right-search-icon {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    margin: 12px 0 0 152px;
+}
+.menu-header-in-right-search-icon:before,.menu-header-in-right-search-icon:after {
+	content: '';
+	position: absolute;
+}
+.menu-header-in-right-search-icon:before {
+    width: 12px;
+    height: 12px;
+    border: 2px solid rgb(200,200,200);
+    border-radius: 10px;
+    margin: 5px 0 0 5px;
+}
+.menu-header-in-right-search-icon:after {
+    width: 2px;
+    height: 6px;
+    background: rgb(200,200,200);
+    transform: rotate(-45deg);
+    margin: 13px 0 0 15px;
+}
 .menu-header-in-right-search-in {
     background: rgb(240,240,240);
-    border: 1px solid gainsboro;
+    border: 2px solid gainsboro;
     height: 30px;
     border-radius: 30px;
     margin: 10px 10px 0 0;
     outline: none;
-    padding: 0 20px 0 20px;
+    padding: 0 26px 0 10px;
     font-size: 12px;
     width: 180px;
+}
+.menu-header-in-right-search-in:focus {
+	background: white;
 }
 .menu-header-in-right-list {
     float: right;
@@ -132,7 +168,25 @@
     height: 28px;
     font-size: 12px;
     outline: none !important;
-    border-radius: 2px;
+    background: transparent;
+    border: 2px solid #2f70aa;
+    color: #2f70aa;
+    font-weight: bold;
+    border-radius: 24px;
+    padding: 0 10px 0 10px;
+	transition: all 0.1s ease-in-out;
+}
+.menu-header-in-right-list-btn:hover {
+	color: white;
+	background: #2f70aa;
+}
+.sign-up-btn {
+	border-color: #00b900;
+    color: #00b900;
+}
+.sign-up-btn:hover {
+	color: white;
+	background: #00b900;
 }
 .menu-header-in-center-list-btn:hover > .menu-list {
 	display: block;
@@ -196,14 +250,29 @@
     text-align: center;
     border-bottom: 1px dotted;
     display: table;
-    margin: 15px auto 15px auto;
+    margin: 15px auto 10px auto;
 }
 .menu-list-in-main-item-option {
     padding: 10px;
     margin: 0 10px 0 10px;
     border-radius: 2px;
     text-transform: capitalize;
+    line-height: 1;
+    text-indent: 15px;
+}
+.menu-list-in-main-item-option:last-child {
+	margin-bottom: 10px;
+}
+.menu-list-in-main-item-option:before {
+    content: '';
+    position: absolute;
+    border-top: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    margin: 2px 0 0 -18px;
 }
 .menu-list-in-main-item-option:hover {
-	background: rgb(240,240,240);
+	background: rgb(245,245,245);
 }

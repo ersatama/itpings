@@ -54,8 +54,6 @@ MainAsset::register($this);
 							<button class="menu-header-in-right-list-btn sign-up-btn menu-header-in-right-icon-view-body-btn">Sign Up</button>
 						</div>
 					</div>
-					<div class="menu-header-in-right-icon-view-list">
-					</div>
 				</div>
 			</div>
 			<div class="menu-header-in-center">
@@ -136,7 +134,22 @@ MainAsset::register($this);
 					<button class="menu-header-in-center-list-btn">About</button>
 				</div>
 			</div>
-			
+		</div>
+		<div class="menu-header-in-right-icon-list">
+			<div class="menu-header-in-right-icon-list-log">
+				<button class="menu-header-in-right-list-btn menu-header-in-right-icon-view-body-btn">Sign In</button>
+				<button class="menu-header-in-right-list-btn sign-up-btn menu-header-in-right-icon-view-body-btn">Sign Up</button>
+			</div>
+			<div class="menu-header-in-right-icon-list-body">
+				<div class="menu-header-in-right-icon-list-body-item">
+					<div class="menu-header-in-right-icon-list-body-item-title">Articles</div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+				</div>
+			</div>
 		</div>
 	</div>
 

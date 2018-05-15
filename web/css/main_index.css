@@ -151,9 +151,21 @@
 	box-shadow: 0 0 0 1px gainsboro;
 	background: rgb(245,245,2450);
 }
-.menu-header-in-right-icon-view-list {
-	display: none;
-	
+.menu-header-in-right-icon-list {
+    display: none;
+    position: fixed;
+    max-width: 250px;
+    min-width: 30%;
+    right: 0;
+    top: 75px;
+    bottom: 0;
+    background: white;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.4);
+    z-index: 5;
+}
+.menu-header-in-right-icon-list-log {
+    padding: 5px 15px 5px 15px;
+    border-bottom: 1px solid gainsboro;
 }
 
 
@@ -461,7 +473,7 @@
 	.menu-header-in-right-icon-view {
 		display: none !important;
 	}
-	.menu-header-in-right-icon-view-list {
+	.menu-header-in-right-icon-list {
 		display: block;
 	}
 }

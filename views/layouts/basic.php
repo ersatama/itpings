@@ -26,7 +26,6 @@ MainAsset::register($this);
 				<div class="menu-header-top-in-list-btn">LinkedIn</div>
 				<div class="menu-header-top-in-list-btn">LiveJournal</div>
 				<div class="menu-header-top-in-list-btn">Instagram</div>
-				<div class="menu-header-top-in-list-btn">VK</div>
 				<div class="menu-header-top-in-list-btn">Google+</div>
 			</div>
 		</div>
@@ -44,6 +43,19 @@ MainAsset::register($this);
 				<div class="menu-header-in-right-list">
 					<button class="menu-header-in-right-list-btn">Sign In</button>
 					<button class="menu-header-in-right-list-btn sign-up-btn">Sign Up</button>
+				</div>
+				<div class="menu-header-in-right-icon">
+					<div class="menu-header-in-right-icon-in"></div>
+					<div class="menu-header-in-right-icon-in-after"></div>
+					<div class="menu-header-in-right-icon-view">
+						<div class="menu-header-in-right-icon-view-icon"></div>
+						<div class="menu-header-in-right-icon-view-body">
+							<button class="menu-header-in-right-list-btn menu-header-in-right-icon-view-body-btn">Sign In</button>
+							<button class="menu-header-in-right-list-btn sign-up-btn menu-header-in-right-icon-view-body-btn">Sign Up</button>
+						</div>
+					</div>
+					<div class="menu-header-in-right-icon-view-list">
+					</div>
 				</div>
 			</div>
 			<div class="menu-header-in-center">
@@ -129,7 +141,13 @@ MainAsset::register($this);
 	</div>
 
 	<div class="fixed-body">
+		<div class="layer-main">
+			<div class="layer-main-in"></div>
+			<div class="left-column">
+				<div class="left-column-title">Lorem Ipsum</div>
+			</div>
 
+		</div>
 
 		<div>Què és Lorem Ipsum?
 Lorem Ipsum és un text de farciment usat per la indústria de la tipografia i la impremta. Lorem Ipsum ha estat el text estàndard de la indústria des de l'any 1500, quan un impressor desconegut va fer servir una galerada de text i la va mesclar per crear un llibre de mostres tipogràfiques. No només ha sobreviscut cinc segles, sinó que ha fet el salt cap a la creació de tipus de lletra electrònics, romanent essencialment sense canvis. Es va popularitzar l'any 1960 amb el llançament de fulls Letraset que contenien passatges de Lorem Ipsum, i més recentment amb programari d'autoedició com Aldus Pagemaker que inclou versions de Lorem Ipsum.

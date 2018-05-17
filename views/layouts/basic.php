@@ -12,10 +12,12 @@ MainAsset::register($this);
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
+
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
 <body>
+
 	<?php $this->beginBody() ?>
 	<div class="menu-header">
 		<div class="menu-header-top-in">
@@ -143,6 +145,67 @@ MainAsset::register($this);
 			<div class="menu-header-in-right-icon-list-body">
 				<div class="menu-header-in-right-icon-list-body-item">
 					<div class="menu-header-in-right-icon-list-body-item-title">Articles</div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option">
+						<div class="menu-header-in-right-icon-list-body-item-title-option-title">OS</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">Linux</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">BSD</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">UNIX</div>
+					</div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option">
+						<div class="menu-header-in-right-icon-list-body-item-title-option-title">Programming</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">Python</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">PHP</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">MySQL</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">Tools</div>
+					</div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option">
+						<div class="menu-header-in-right-icon-list-body-item-title-option-title">Networking</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">Cisco</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">IDS</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">LAN</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">VPN</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">WAN</div>
+					</div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option">
+						<div class="menu-header-in-right-icon-list-body-item-title-option-title">Hardware</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">Configuration</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">Development</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">Secuirty</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">Troubleshooting</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">Usage</div>
+					</div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option">
+						<div class="menu-header-in-right-icon-list-body-item-title-option-title">Other</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">Gaming</div>
+						<div class="menu-header-in-right-icon-list-body-item-title-option-item">Multimedia</div>
+					</div>
+				</div>
+				<div class="menu-header-in-right-icon-list-body-item">
+					<div class="menu-header-in-right-icon-list-body-item-title">Online Cources</div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+				</div>
+				<div class="menu-header-in-right-icon-list-body-item">
+					<div class="menu-header-in-right-icon-list-body-item-title">Videos</div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+				</div>
+				<div class="menu-header-in-right-icon-list-body-item">
+					<div class="menu-header-in-right-icon-list-body-item-title">Users</div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
+				</div>
+				<div class="menu-header-in-right-icon-list-body-item">
+					<div class="menu-header-in-right-icon-list-body-item-title">About</div>
 					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
 					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
 					<div class="menu-header-in-right-icon-list-body-item-title-option"></div>
@@ -272,6 +335,10 @@ Hi ha moltes variacions dels passatges de Lorem Ipsum disponibles, però la majo
 		</div>
 	</div>
 <?php $this->endBody() ?>
+<link href="/web/css/jquery.jscrollpane.css" rel="stylesheet">
+<script src="/web/js/jquery.mousewheel.js"></script>
+<script src="/web/js/jquery.jscrollpane.min.js"></script>
+<script src="/web/js/page.js"></script>
 </body>
 </html>
 <?php $this->endPage() ?>

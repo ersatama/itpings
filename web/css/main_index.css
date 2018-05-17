@@ -431,6 +431,81 @@
 .menu-header-in-right-icon-view-body-btn:last-child {
 	margin-bottom: 10px;
 }
+.menu-header-in-right-icon-list-body {
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    cursor: pointer;
+}
+.menu-header-in-right-icon-list-body-item {
+    overflow: hidden;
+    border-bottom: 1px solid gainsboro;
+}
+.menu-header-in-right-icon-list-body-item-title {
+    padding: 10px 10px 10px 25px;
+}
+.menu-header-in-right-icon-list-body-item-title:hover {
+	background: rgb(245,245,245);
+}
+.menu-header-in-right-icon-list-body-item-title:before {
+    content: '';
+    position: absolute;
+    border-top: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    margin: 4px 0 0 -18px;
+	transition: all 0.1s ease-in-out;
+}
+.menu-header-in-right-icon-list-body-item-title-option {
+	display: none;
+}
+.menu-header-in-right-icon-list-body-item-title-option-title {
+	padding: 10px 10px 10px 35px;
+}
+.menu-header-in-right-icon-list-body-item-title-option-title:before {
+    content: '';
+    position: absolute;
+    border-top: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    margin: 4px 0 0 -18px;
+	transition: all 0.1s ease-in-out;
+}
+.menu-header-in-right-icon-list-body-item-title-option:hover {
+	background: rgb(245,245,245);
+}
+.menu-header-in-right-icon-list-body-item:hover > .menu-header-in-right-icon-list-body-item-title-option {
+	display: block;
+}
+.menu-header-in-right-icon-list-body-item:hover > .menu-header-in-right-icon-list-body-item-title:before {
+	transform: rotate(90deg);
+}
+.menu-header-in-right-icon-list-body-item-title-option-item {
+    display: none;
+    padding: 10px 10px 10px 45px;
+}
+.menu-header-in-right-icon-list-body-item-title-option-item:hover {
+	background: rgb(235,235,235);
+}
+.menu-header-in-right-icon-list-body-item-title-option-item:before {
+    content: '';
+    position: absolute;
+    border-top: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    margin: 4px 0 0 -18px;
+	transition: all 0.1s ease-in-out;
+}
+.menu-header-in-right-icon-list-body-item-title-option:hover:before {
+	transform: rotate(90deg);
+}
 /*MINI DEVICES*/
 @media only screen and (max-width: 475px) {
 	
@@ -487,16 +562,19 @@
 	.menu-header-top-in-list-btn {
     	margin: 0 15px 0 0;
 	}
-	.menu-header-in-left {
-		margin-left: 0;
-	}
 }
 @media only screen and (max-width: 425px) {
 	.menu-header-top-in-list-btn {
     	margin: 0 10px 0 0;
 	}
+	.menu-header-in-left {
+		margin-left: 10px;
+	}
 }
 @media only screen and (max-width: 375px) {
+	.menu-header-in-left {
+		margin-left: 0;
+	}
 	.menu-header-in-right-icon {
 		margin-right: 10px;
 	}

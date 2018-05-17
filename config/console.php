@@ -13,6 +13,15 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
+        'components' => [
+            'assetManager' => [
+                'bundles' => [
+                    'yii\web\JqueryAsset' => [
+                        'jsOptions' => [ 'position' => \yii\web\View::POS_HEAD ],
+                     ],
+                ],
+            ],
+        ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],

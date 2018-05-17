@@ -217,12 +217,38 @@ MainAsset::register($this);
 	</div>
 
 	<div class="fixed-body">
+		<div class="layer-main-in"></div>
 		<div class="layer-main">
-			<div class="layer-main-in"></div>
+			
 			<div class="left-column">
-				<div class="left-column-title">Lorem Ipsum</div>
+				<div class="left-column-title-before">Start Learining Linux today</div>
+				<div class="left-column-title">You see, you not only have to be a good coder to create a system, like Linux, you still have to be a smart-ass son of a bitch.</div>
+				<div class="left-column-title-after">Linus Torvalds</div>
+				<div class="title-btn">Start Learing</div>
+			</div>
+			<div class="right-column">
+				<div class="right-column-terminal-in">
+						<div class="right-column-terminal-in-layer">
+							<div class="right-column-terminal-in-layer-item right-column-terminal-in-layer-item3"></div>
+							<div class="right-column-terminal-in-layer-item right-column-terminal-in-layer-item2"></div>
+							<div class="right-column-terminal-in-layer-item right-column-terminal-in-layer-item1"></div>
+							<div class="right-column-terminal-in-layer-item"></div>
+						</div>
+						<div class="layer-move">
+							<div class="layer-move-item layer-move-item-sel"></div>
+							<div class="layer-move-item"></div>
+							<div class="layer-move-item"></div>
+							<div class="layer-move-item"></div>
+							<div class="layer-move-item"></div>
+							<div class="layer-move-item"></div>
+						</div>
+					</div>
+				<div class="right-column-terminal"></div>
 			</div>
 
+		</div>
+		<div class="layer-main">
+			<div class="all-main-icon-list"></div>
 		</div>
 
 		<div>Què és Lorem Ipsum?

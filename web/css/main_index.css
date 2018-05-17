@@ -68,18 +68,17 @@
     float: left;
 }
 .menu-header-in-left-title {
-	float: left;
+float: left;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 26px;
     color: black;
-    margin: 7px 0 0 7px;
+    margin: 2px 0 0 7px;
     letter-spacing: .1em;
-    text-shadow: 0 4px 5px rgb(180,180,180);
     font-weight: bold;
+    text-shadow: -1px -1px #FFF, -2px -2px #FFF, -1px 1px #FFF, -2px 2px #FFF, 1px 1px #FFF, 2px 2px #FFF, 1px -1px #FFF, 2px -2px #FFF, -3px -3px 2px #BBB, -3px 3px 1px #BBB, 3px 3px 1px #BBB, 3px -3px 1px #BBB;
 }
 .menu-header-in-left-title-in {
-    color: rgb(204, 33, 40);
-    text-shadow: 0 4px 5px rgba(204, 33, 40,.7);
+    color: red;
 }
 .menu-header-in-right {
     position: absolute;
@@ -332,9 +331,12 @@
 }
 .layer-main {
     overflow: hidden;
+    position: relative;
+    z-index: 1;
+    display: flex;
 }
 .layer-main-in {
-    position: relative;
+	position: absolute;
     height: 500px;
     width: 100%;
     background: linear-gradient(to left, rgb(209, 206, 206), rgb(230,240,240));
@@ -345,13 +347,107 @@
     transform: skewY(-6deg);
     margin-top: -6%;
 }
-.left-column {
-    width: 30%;
-    min-height: 400px;
+.right-column {
+    width: 50%;
+    min-height: 500px;
+}
+.right-column-terminal {
+    width: 600px;
+    height: 350px;
+    background: url(/web/assets/img/notebook.png) no-repeat center;
+    background-size: contain;
+    margin: 70px 0 0 0;
+}
+.right-column-terminal-in {
+    background: white;
+    width: 424px;
+    height: 265px;
+    margin: 101px 0 0 88px;
+    position: absolute;
+}
+.right-column-terminal-in-layer {
+    width: 424px;
+    height: 266px;
+    position: absolute;
     overflow: hidden;
 }
+.right-column-terminal-in-layer-item {
+    width: 100%;
+    height: 100%;
+    background: url(/web/assets/img/deb.jpg) no-repeat center;
+    background-size: cover;
+}
+.right-column-terminal-in-layer-item1 {
+	background-image: url(/web/assets/img/cent.jpg);
+}
+.right-column-terminal-in-layer-item2 {
+	background-image: url(/web/assets/img/fed.png);
+}
+.right-column-terminal-in-layer-item3 {
+	background-image: url(/web/assets/img/ubu.jpg);
+}
+.all-main-icon-list {
+    
+}
+.layer-move {
+    position: absolute;
+    margin: 330px 0 0 170px;
+    z-index: 10;
+}
+.layer-move-item {
+    width: 10px;
+    height: 10px;
+    background: gainsboro;
+    float: left;
+    margin: 0 5px 0 0;
+    border-radius: 15px;
+}
+.layer-move-item:last-child {
+	margin: 0;
+}
+.layer-move-item-sel {
+	background: #2f70aa;
+}
+.left-column {
+    width: 40%;
+    min-height: 500px;
+    overflow: hidden;
+    margin-left: 5%;
+}
+.left-column-title-before {
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #2f70aa;
+    margin: 90px 0 10px 0;
+}
 .left-column-title {
-
+    font-size: 18px;
+    font-family: cursive;
+    color: grey;
+}
+.left-column-title-after {
+    font-size: 28px;
+    font-family: cursive;
+    color: grey;
+}
+.left-column-title:before,.left-column-title:after {
+	content: "\"";
+}
+.title-btn {
+    display: table;
+    margin: 30px 0 0 0;
+    color: #00b900;
+    padding: 10px 20px 10px 20px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: 2px solid #00b900;
+    font-weight: bold;
+    cursor: pointer;
+}
+.title-btn:hover {
+	background: #00b900;
+	color: white;
 }
 .menu-header-in-right-icon {
     display: none;

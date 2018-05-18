@@ -387,7 +387,36 @@ float: left;
 	background-image: url(/web/assets/img/ubu.jpg);
 }
 .all-main-icon-list {
-    
+    min-height: 400px;
+    width: 100%;
+}
+.all-main-icon-list-title {
+    text-align: center;
+    color: #00b900;
+    font-weight: bold;
+    font-size: 28px;
+    width: 100%;
+    font-family: cursive;
+}
+.all-main-icon-list-icon {
+    height: 350px;
+    margin: 0;
+}
+.all-main-icon-list-icon-item {
+    width: 100px;
+    height: 100px;
+    background: url(/web/assets/icon/deb.png) no-repeat center;
+    background-size: cover;
+    margin: 20px;
+}
+.all-main-icon-list-icon-item-ubuntu {
+    background-image: url(/web/assets/icon/ubu.png);
+}
+.all-main-icon-list-icon-item-cent {
+    background-image: url(/web/assets/icon/cent.png);
+}
+.all-main-icon-list-icon-item-red {
+    background-image: url(/web/assets/icon/red.png);
 }
 .layer-move {
     position: absolute;

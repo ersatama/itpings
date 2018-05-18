@@ -248,7 +248,17 @@ MainAsset::register($this);
 
 		</div>
 		<div class="layer-main">
-			<div class="all-main-icon-list"></div>
+			<div class="all-main-icon-list">
+				<div class="all-main-icon-list-title">What you will learn in this course</div>
+				<div class="all-main-icon-list-icon">
+					<div class="all-main-icon-list-icon-item"></div>
+					<div class="all-main-icon-list-icon-item all-main-icon-list-icon-item-ubuntu"></div>
+					<div class="all-main-icon-list-icon-item all-main-icon-list-icon-item-cent"></div>
+					<div class="all-main-icon-list-icon-item all-main-icon-list-icon-item-red"></div>
+					<div class="all-main-icon-list-icon-item"></div>
+					<div class="all-main-icon-list-icon-item"></div>
+				</div>
+			</div>
 		</div>
 
 		<div>Què és Lorem Ipsum?
